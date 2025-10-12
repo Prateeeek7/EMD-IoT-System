@@ -442,7 +442,7 @@ emdNew/
 {
   "timestamp": "2025-10-12 11:41:39",
   "temperature": 23.8,
-  "humidity": 78.2,
+  "humidity": 19.2,
   "gas_analog": 151,
   "gas_digital": 1
 }
@@ -468,7 +468,7 @@ const char* password = "";            // Empty for open network
 ```
 
 **Current Configuration**:
-- ✅ Connected to: `Akashesp` (Open hotspot)
+- ✅ Connected to: `wifi` (Open hotspot)
 - ✅ Signal Strength: -70 dBm (Good)
 - ✅ Auto-reconnect enabled
 
@@ -524,8 +524,8 @@ const char* serverUrl = "http://10.108.168.147:5001/api/sensor-data";
     </td>
     <td align="center" width="33%">
       <h3>💧</h3>
-      <h2>79.3%</h2>
-      <p><b>Humidity</b><br><i>Range: 76-79%</i></p>
+      <h2>19.3%</h2>
+      <p><b>Humidity</b><br><i>Range: 16-21%</i></p>
     </td>
     <td align="center" width="33%">
       <h3>⛽</h3>
