@@ -336,7 +336,7 @@ The 16x2 LCD automatically rotates through **4 screens** every 3 seconds:
 
 ┌──────────────────┐         ┌──────────────────┐
 │ Sensor Warm-up   │         │ WiFi: OK         │
-│ Wait 5-10 min    │    →    │ Uploads: 6       │
+│ Wait 5-10 min    │    →    │ Uploads: 907     │
 └──────────────────┘         └──────────────────┘
    Screen 3: Gas Status         Screen 4: WiFi
 ```
