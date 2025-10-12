@@ -37,7 +37,7 @@
 </div>
 
 <div align="center">
-  
+
 ```diff
 @@    🎯 Complete IoT Environmental Monitoring & Analytics Platform           @@
 + 🌡️ Real-time Temperature & Humidity Monitoring with DHT11
@@ -48,6 +48,8 @@
 + 🗄️ Persistent Data Storage in SQLite Database
 + 📈 Historical Trend Analysis & Statistical Insights
 ```
+
+</div>
 
 </div>
 
