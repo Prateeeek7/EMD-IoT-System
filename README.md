@@ -173,13 +173,13 @@ graph LR
 </div>
 
 ```yaml
-🌐 WiFi Connection:    ✅ Connected to "Akashesp" (-70 dBm)
-☁️ Cloud Uploads:      ✅ Active (HTTP 201) - 6+ successful uploads
+🌐 WiFi Connection:    ✅ Connected to "Wifi" (-70 dBm)
+☁️ Cloud Uploads:      ✅ Active (HTTP 201) - 600+ successful uploads
 🌡️ Temperature:        23.3°C (Stable)
-💧 Humidity:           79.3% (Monitoring)
+💧 Humidity:           19.3% (Monitoring)
 ⛽ Gas Level:          160/1024 (15.6%) - Normal, warming up
 📱 LCD Display:        ✅ 4 rotating screens active
-🗄️ Database:          ✅ 26+ readings stored
+🗄️ Database:          ✅ 900+ readings stored
 📊 Dashboard:          ✅ Live at http://localhost:8501
 ```
 
@@ -329,7 +329,7 @@ The 16x2 LCD automatically rotates through **4 screens** every 3 seconds:
 
 ```
 ┌──────────────────┐         ┌──────────────────┐
-│ T:23.3°C H:79%   │         │ Gas: 160/1024    │
+│ T:23.3°C H:19%   │         │ Gas: 160/1024    │
 │ DHT11 Working    │    →    │ ████░░░░░░░░░░░░ │
 └──────────────────┘         └──────────────────┘
    Screen 1: Temp/Hum           Screen 2: Gas Bar
@@ -683,12 +683,12 @@ const char* serverUrl = "http://10.108.168.147:5001/api/sensor-data";
     <td align="center">
       <h3>📈</h3>
       <b>Cloud Uploads</b><br>
-      6+ Successful
+      900+ Successful
     </td>
     <td align="center">
       <h3>📚</h3>
       <b>Readings Stored</b><br>
-      26+
+      600+
     </td>
     <td align="center">
       <h3>⚡</h3>
